@@ -1,21 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 body {
   font-family: montserrat, arial, verdana;
-  background: transparent;
-  display: flex;
+  background: center url("wp8932289.jpg");
   justify-content: center;
   align-items: center;
+  display: flex;
   height: 100vh;
 }
 form {
   width: 400px;
   text-align: center;
   padding: 30px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
 }
 label {
   font-size: 20px;
-  color: #666;
+  color: #f08d8d;
   margin: 10px;
   display: block;
 }
@@ -35,7 +35,7 @@ input {
 
 button {
   width: 100px;
-  background: #ee0979;
+  background: #f08d8d;
   font-weight: bold;
   color: white;
   border: 0 none;
