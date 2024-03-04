@@ -7,9 +7,9 @@ table {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 thead tr {
-  background-color: #009879;
-  color: #ffffff;
-  text-align: left;
+  background-color: #c706a7;
+  color: #000000;
+  text-align: center;
 }
 th,
 td {
@@ -25,14 +25,14 @@ tbody tr:nth-of-type(even) {
 }
 
 tfoot tr:last-of-type {
-  border-bottom: 2px solid #009879;
+  border-bottom: 2px solid #c706a7;
 }
 tfoot td {
   font-weight: bold;
 }
 caption {
   padding-bottom: 12px;
-  color: #009879;
+  color: #000000;
 }
 
 img {
