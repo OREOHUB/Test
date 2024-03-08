@@ -92,7 +92,8 @@ main{
   height: 70px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.781);
-  color: rgb(0, 247, 255);
+  color: rgba(255, 68, 68, 0.842);
+  text-shadow: 0 0 15px rgb(255, 122, 122);
 }
 
 .GigButton{
