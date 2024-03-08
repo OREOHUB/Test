@@ -24,7 +24,8 @@ main{
 }
 
 .Title{
-  display: block;
+  display: flex;
+  align-items: center;
   height: 50px;
   width: 200px;
   margin: 0px 47px ;
@@ -36,6 +37,7 @@ main{
   border-right-color:rgb(0, 118, 139);
   border-left-style: solid;
   border-left-color:rgb(0, 118, 139);
+  box-shadow: 0 0 50px rgb(92, 191, 248);
   
   color: rgb(0, 247, 255);
   text-shadow: 0px 0px 15px rgb(92, 191, 248);
@@ -44,7 +46,7 @@ main{
 .MainInfo{
   display: block;
   margin: 0px auto;
-  height: 860px;
+  height: 859px;
   width: 700px;
   background-color: rgba(1, 24, 66, 0.911);
   border-top-style: solid;
@@ -53,6 +55,8 @@ main{
   border-right-color: rgb(0, 118, 139);
   border-left-style: solid;
   border-left-color: rgb(0, 118, 139);
+  box-shadow: 0 0 50px rgb(92, 191, 248);
+  
   z-index: -1;
   color: rgb(0, 247, 255);
 }
@@ -139,4 +143,10 @@ main{
 .MoreInfoText{
   margin: 10px 213px -53px 30px;
   font-size: 20px;
+}
+
+.SideNavButtons{
+  position: relative;
+  margin: 40px 10px 10px 10px;
+  z-index: +2;
 }

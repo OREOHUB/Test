@@ -1,3 +1,23 @@
+h1{
+  margin-left: 10px;
+}
+
+.SideNav{
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.651);
+  position: absolute;
+  top: 32px;
+  left: 0;
+  display: block;
+  width: 300px;
+  height: 900px;
+  box-shadow: 0 0 50px purple;
+}
+
+body .cybr-btn+.cybr-btn {
+  margin-top: 2rem;
+}
+
 .cybr-btn {
   --primary: hsl(var(--primary-hue), 85%, calc(var(--primary-lightness, 50) * 1%));
   --shadow-primary: hsl(var(--shadow-primary-hue), 90%, 50%);
