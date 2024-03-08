@@ -2,6 +2,12 @@ h1{
   margin-left: 10px;
 }
 
+.SideNavButtons {
+  position: relative;
+  margin: 40px 10px 10px 10px;
+  z-index: +2;
+}
+
 .SideNav{
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.651);
